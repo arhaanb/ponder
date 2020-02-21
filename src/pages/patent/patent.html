@@ -1,0 +1,55 @@
+<ion-header no-border>
+  <ion-navbar color='navbarColor'>
+
+    <ion-item color='navbarColor' no-lines text-wrap style="padding:0px !important; ">
+      <ion-label start>
+        <ion-buttons start>
+          <button ion-button menuToggle>
+            <ion-icon name="menu" style="color: white; font-size:35px;" class="meinu"></ion-icon>
+          </button>
+        </ion-buttons>
+      </ion-label>
+      <ion-label start style="font-size:20px !important; margin-top: 25px !important; " text-wrap class="textt">
+        <img src="" style="width:40%">
+
+      </ion-label>
+    </ion-item>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding scrollY="true" align='center'>
+
+    <ion-item id="input" style="background-color:white;" >
+      
+        <ion-input placeholder='Text' [(ngModel)]="text" position="floating" style="color: black;"></ion-input>
+      </ion-item>
+    
+      <button ion-buttom full (click)="yoyo()" id="button" shape="round" block
+      style="color: white; background-color: #6699ee;">Submit</button>
+
+
+  <div class="progress" id="myDIV" align='center'>
+   
+    <ion-item>
+        Unique:
+        <progress-bar [progress]="23"  [color-degraded]="{'0': '#00cbcb',  '15': '#f9c3d3', '25': '#fd8c8e'}" #prog>
+        </progress-bar>
+    </ion-item>
+    
+    
+    <ion-item>
+        Plagiarized:
+        <progress-bar [progress]="78"  [color-degraded]="{'0': '#00cbcb',  '15': '#f9c3d3', '25': '#fd8c8e'}" #prog>
+        </progress-bar>
+    </ion-item>
+    <ion-item>
+        Checked:
+         <progress-bar [progress]="70" [color-degraded]="{'0': '#00cbcb',  '15': '#f9c3d3', '25': '#fd8c8e'}">
+          </progress-bar>
+    </ion-item>
+  
+  </div>
+  
+
+</ion-content>

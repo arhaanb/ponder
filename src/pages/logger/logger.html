@@ -1,0 +1,37 @@
+<ion-header no-border>
+    <ion-navbar color='navbarColor'>
+  
+      <ion-item color='navbarColor' no-lines text-wrap style="padding:0px !important; ">
+        <ion-label start>
+          <ion-buttons start>
+            <button ion-button menuToggle>
+              <ion-icon name="menu" style="color: white; font-size:35px;" class="meinu"></ion-icon>
+            </button>
+          </ion-buttons>
+        </ion-label>
+        <ion-label start style="font-size:20px !important; margin-top: 25px !important; " text-wrap class="textt">
+          <img src="" style="width:40%">
+  
+        </ion-label>
+      </ion-item>
+    </ion-navbar>
+  
+  </ion-header>
+
+<ion-content padding>
+    <h2 id="time">You are most productive at <span class="epictime">{{acttime}} hours</span></h2>
+    <h1 id="idea-text">Log your ideas!</h1>
+    <ion-item>
+        <ion-input [(ngModel)]="todo" placeholder="Enter your idea here" type="text" id="ideabro"></ion-input>
+    </ion-item>
+      <div class="center1">
+        <button ion-button full (click)="add()" id="add">Store your idea!</button>
+      </div>
+    <ion-list>
+        <ion-item-sliding *ngFor="let t of todos">
+            <ion-item>
+                {{t}}
+            </ion-item>
+        </ion-item-sliding>
+    </ion-list>
+</ion-content>

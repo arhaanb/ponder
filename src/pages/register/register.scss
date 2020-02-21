@@ -1,0 +1,66 @@
+page-register {
+  ion-content {
+    background: white!important;
+  }
+  h1 {
+    color: #fff;
+
+    padding-bottom: 0.4em;
+  }
+  h2 {
+    padding-bottom: 1em;
+  }
+  .center {
+    margin-top: 30%;
+  }
+  .logo {
+    width: 55%;
+    margin: 0;
+    padding-bottom: 10%;
+  }
+
+  .quote {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  #input {
+    background: white;
+
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 10px;
+    border-bottom-color: transparent !important;
+    box-shadow: none !important;
+  }
+  .text-input::-moz-placeholder {
+    color: white;
+  }
+
+  .text-input:-ms-input-placeholder {
+    color: white;
+  }
+
+  .text-input::-webkit-input-placeholder {
+    text-indent: 0;
+    color: white;
+  }
+
+  #button {
+    background: white;
+    color: rgb(67, 143, 38);
+    font-size: 15px;
+    border: transparent;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  .icon {
+    padding: 4px;
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+  }
+}

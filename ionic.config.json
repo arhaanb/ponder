@@ -1,0 +1,7 @@
+{
+  "name": "ananda",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

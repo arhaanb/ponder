@@ -1,0 +1,60 @@
+page-pintrest {
+      
+    ion-navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+    
+      ion-title {
+        flex: 1;
+      }
+    
+      ion-content {
+        background: white !important;
+      }
+    
+      .collection{
+        column-count: 2 !important;
+      }
+     .collection-item{
+       display: inline-block;
+       padding: 12px 12px 28px 12px;
+      
+       cursor:zoom-in;
+       img{
+
+      
+       }
+       button{
+         display: none;
+         position: absolute;
+         top: 10px;
+       }
+
+   
+}
+}
+.collection-item:hover{
+
+ animation: tapAnimation 0.25s cubic-bezier(0.31,1,0.34,1) forwards !important;
+ button{
+   display: block;
+
+
+ }
+
+}
+@keyframes tapAnimation {
+0%{
+ opacity: 1;
+ transform: scale(0.96);
+
+}
+100%{
+
+ opacity: 1;
+ background: rgba(0,0,0,0.05) !important;
+ transform: scale(1);
+}
+}

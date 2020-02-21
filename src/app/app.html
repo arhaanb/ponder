@@ -1,0 +1,46 @@
+
+ <div *ngIf="showSplash" class="splash">
+    <div class="spinner">
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+      </div>
+ 
+</div>
+
+
+
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar color='navbarColor'>
+      <ion-title>
+        <div class="profile-main">
+          <ion-avatar left>
+            <img class="profile-image" src="../assets/imgs/kabir_o.jpg">
+          </ion-avatar>
+          <h1> Hello, Kabir!</h1>
+        </div>
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content no-bounce class="scroll-content">
+    <ion-list>
+      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p.name)">
+        {{p.title}}
+      </button>
+      <div align='center'>
+      </div>
+    </ion-list>
+  </ion-content>
+  <ion-footer align='center'>
+    <ion-toolbar>
+      <ion-title>
+          <progress-bar [progress]="60" [color-degraded]="{'0': '#00cbcb',  '15': '#f9c3d3', '25': '#fd8c8e'}">
+            </progress-bar>
+        <p class="love">Made with <ion-icon ios="ios-heart" md="md-heart" style="color: red;"></ion-icon> by <a
+            style="color: #6699ee; text-decoration:none;" href="https://minet.co"> MINET </a></p>
+      </ion-title>
+    </ion-toolbar>
+  </ion-footer>
+</ion-menu>
+
+<ion-nav #content [root]="rootPage" swipeBackEnabled="false"></ion-nav>

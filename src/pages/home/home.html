@@ -1,0 +1,59 @@
+<ion-header no-border>
+  <ion-navbar color='navbarColor'>
+
+    <ion-item color='navbarColor' no-lines text-wrap style="padding:0px !important; ">
+      <ion-label start>
+        <ion-buttons start>
+          <button ion-button menuToggle>
+            <ion-icon name="menu" style="color: white; font-size:35px;" class="meinu"></ion-icon>
+          </button>
+        </ion-buttons>
+      </ion-label>
+    </ion-item>
+
+   
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content no-padding no-margin scrollY="true">
+  <div class="buddy">
+    <div class="headerthing">
+      <img src="../../assets/imgs/kabir_o.jpg" id="profile">
+      <h1 id="headtext">Kabir Oberoi</h1>
+      <h2 id="brotext">Web Designer</h2>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="flexy">
+      <div class="poop one">
+        <ion-icon name="folder-open"></ion-icon>
+        <span class="top">7</span>
+        <span class="bottom">projects</span>
+      </div>
+
+      <div class="poop two">
+        <ion-icon name="list-box"></ion-icon>
+        <span class="top">18</span>
+        <span class="bottom">incomplete <br> tasks</span>
+      </div>
+
+      <div class="poop three">
+        <ion-icon name="contacts"></ion-icon>
+        <span class="top">32</span>
+        <span class="bottom">friends</span>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="tag">Your most productive hours</h1>
+  <ion-card id="graph" no-shadow>
+
+    <ion-card-content id='chart'>
+      <canvas #barCanvas height="300px" width="400px" style="padding: 10px;"></canvas>
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>

@@ -1,0 +1,24 @@
+<ion-content padding text-center no-bounce>
+  <div align="center" class="center">
+    <img src="../../assets/icon/head correction.png" class="logo">
+    <ion-list no-lines>
+      <ion-item id="input" style="background-color: #6699ee;">
+        <ion-icon name="person" item-left primary></ion-icon>
+        <ion-input placeholder='Email' [(ngModel)]="email" position="floating" style="color: white;"></ion-input>
+      </ion-item>
+      &nbsp;
+      <ion-item id="input" style="background-color: #6699ee;">
+        <ion-icon name="key" item-left primary style="color: white;"></ion-icon>
+        <ion-input placeholder='Password' type="password" [(ngModel)]="password" position="floating"
+          style="color: white;"></ion-input>
+      </ion-item>
+
+    </ion-list>
+
+    <button ion-buttom full (click)="login()" id="button" shape="round" block
+      style="color: white; background-color: #6699ee;">Log In</button>
+    &nbsp;
+    <button ion-buttom full (click)="Register()" id="button" shape="round" block
+      style="color: white; background-color: #6699ee;">Register</button>
+  </div>
+</ion-content>

@@ -1,0 +1,37 @@
+page-patent {
+   
+         
+    ion-navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+    
+      ion-title {
+        flex: 1;
+      }
+    
+      ion-content {
+        background: white !important;
+      }
+      ion-content ion-progress-bar {
+        margin: 10px 0;
+      }
+   
+      .progress{
+        display: none;
+      }
+   
+      #button {
+        background: white;
+        margin-top:1.5em ;
+        color: rgb(67, 143, 38);
+        font-size: 15px;
+        border: transparent;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+      }
+    
+}
+

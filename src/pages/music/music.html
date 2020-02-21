@@ -1,0 +1,107 @@
+<ion-header no-border>
+  <ion-navbar color='navbarColor'>
+
+    <ion-item color='navbarColor' no-lines text-wrap style="padding:0px !important; ">
+      <ion-label start>
+        <ion-buttons start>
+          <button ion-button menuToggle>
+            <ion-icon name="menu" style="color: white; font-size:35px;" class="meinu"></ion-icon>
+          </button>
+        </ion-buttons>
+      </ion-label>
+      <ion-label start style="font-size:20px !important; margin-top: 25px !important; " text-wrap class="textt">
+        <img src="" style="width:40%">
+
+      </ion-label>
+    </ion-item>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding scrollY="true">
+    <div class="headboi">
+        <img src="../../assets/imgs/kabir_o.jpg">
+        <h1>focus</h1>
+      </div>
+    
+    
+        <div class="song" (click)="audio1()">
+          <div class="album"><img src="../../assets/imgs/f1.png" class="albumart"></div>
+          <div class="texty">  
+            <div class="info">
+              <h2>Kai</h2>
+              <h4>Aditya Pramar</h4>
+            </div>
+              
+          </div>
+        </div>
+    
+        <div class="song" (click)="audio2()">
+          <div class="album"><img src="../../assets/imgs/f2.png" class="albumart"></div>
+          <div class="texty">  
+            <div class="info">
+              <h2>Sage</h2>
+              <h4>Aditya Pramar</h4>
+            </div>
+             
+          </div>
+        </div>
+    
+        <div class="song" (click)="audio3()">
+          <div class="album"><img src="../../assets/imgs/f3.png" class="albumart"></div>
+          <div class="texty"> 
+            <div class="info">
+              <h2>Choosing Life</h2>
+              <h4>Philip Glass</h4>
+            </div>
+          
+          </div>
+        </div>
+    
+        <div class="song" (click)="audio4()">
+          <div class="album"><img src="../../assets/imgs/f4.png" class="albumart"></div>
+          <div class="texty">  
+            <div class="info">
+              <h2>As We Keep Searching</h2>
+              <h4>Banshee</h4>
+            </div>
+              
+          </div>
+        </div>
+    
+        <div class="song" (click)="audio5()">
+          <div class="album"><img src="../../assets/imgs/f5.png" class="albumart"></div>
+          <div class="texty">  
+            <div class="info">
+              <h2>Rick 'N Morty</h2>
+              <h4>Swum</h4>
+            </div>
+          
+          </div>
+        </div>
+    
+        <div class="song" (click)="audio6()">
+          <div class="album"><img src="../../assets/imgs/f6.jpg" class="albumart"></div>
+          <div class="texty">  
+            <div class="info">
+              <h2>Slow Dancing In The Dark</h2>
+              <h4>Joji</h4>
+            </div>
+           
+          </div>
+        </div>
+
+
+</ion-content>
+<ion-footer>
+  <div align='center'>
+    <button ion-button (click)="startAudio()" style="background-color: #6699ee;" id="hibutton" >
+      <ion-icon name="play" id="ppicon"></ion-icon>
+      </button>
+  
+      <button ion-button (click)="stopAudio()" style="background-color: #6699ee;" id="hibutton" >
+      <ion-icon name="pause" id="ppicon"></ion-icon>
+        </button>
+  </div>
+  
+</ion-footer>

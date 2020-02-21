@@ -1,0 +1,57 @@
+page-logger {
+    ion-navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+    
+      ion-title {
+        flex: 1;
+      }
+    
+      ion-content {
+        background: white !important;
+      }
+    
+
+}
+
+#add {
+  width: 100%;
+  background-color: #6699ee;
+}
+
+#ideabro {
+  overflow-y: scroll;
+}
+
+.epictime {
+  text-decoration: underline;
+}
+
+#time {
+  background-color: rgba(102, 153, 238, 0.6);
+  padding: 1em;
+  font-size: 1.4em;
+  margin-top: 0.5em;
+}
+
+#idea-text {
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+  margin-left: 0.5em;
+}
+
+#add {
+  margin-top: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 2em;
+  width: 20em !important; 
+  justify-content: center;
+}
+
+.center1 {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,123 @@
+page-home {
+  ion-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  ion-title {
+    flex: 1;
+  }
+
+  ion-content {
+    background: white !important;
+  }
+
+  
+  .headerthing {
+    background-image: url(../../assets/imgs/banner.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    height: 12vh;
+  }
+  
+  #headtext {
+    font-size: 1.7em;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+  }
+  
+  #profile {
+    width: 8em;
+    border-radius: 100%;
+    margin: 0;
+    margin-bottom: 0.5em;
+  }
+  
+  #brotext {
+    font-size: 1.2em;
+    margin-top: .2em;
+    color: #595959;
+  }
+  
+  .buddy {
+    height: 25vh;
+  }
+  
+  .flexy {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .top {
+    font-size: 1.9em;
+    margin-bottom: .4em;
+  }
+  
+  .bottom {
+    margin: 0;
+  }
+  
+  .poop {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #667db6, #0082c8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #667db6, #0082c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 0.5em;
+  }
+  
+  .card {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 1em;
+    color: white;
+  }
+  
+  ion-icon {
+    margin-bottom: 0.2em;
+    font-size: 2em;
+  }
+  
+  ion-card-header {
+          display: none;
+      }
+
+#graph {
+    background-color: transparent !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+	
+   	width: 100%;
+         
+      }
+}
+
+.tag {
+	text-align: center;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+#chart {
+	margin-bottom: 0;
+}
+
+#graph {
+	margin: 0;
+	padding: 0;
+}
