@@ -5,5 +5,5 @@ An app made for creative professionals to think better
 install the node modules  
 ``` npm i ```
 
-run the app
+run the app  
 ``` ionic serve ```
