@@ -35,7 +35,7 @@
     "angular-progress-bar": "^1.0.9",
     "animejs": "^3.1.0",
     "apiai-promise": "^1.0.0",
-    "chart.js": "^2.7.3",
+    "chart.js": "^2.9.4",
     "cordova-android": "7.1.4",
     "cordova-ios": "5.0.1",
     "cordova-plugin-apiai": "1.7.4",
